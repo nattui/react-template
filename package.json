@@ -1,0 +1,24 @@
+{
+  "name": "react-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html -d dist/development/ --open",
+    "build": "parcel build src/index.html -d dist/production/ --no-source-maps --public-url ./",
+    "dependencies:update": "npx npm-check-updates -u && npm i",
+    "dependencies:remove": "rm -R node_modules"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-router-dom": "^5.0.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3",
+    "sass": "^1.22.10"
+  }
+}
